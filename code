@@ -1,0 +1,9 @@
+from astropy.io import fits
+import glob
+import numpy as np
+np.version.version
+from matplotlib import pyplot as plt
+%matplotlib inline
+
+h = open('sodium_spectrum.txt', "r")
+h.close()
